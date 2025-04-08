@@ -22,9 +22,9 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 
-## Pipeline 
-cat_col = [1,2,3]
-num_col = [0,4]
+## Pipeline
+cat_col = [1, 2, 3]
+num_col = [0, 4]
 
 transform = ColumnTransformer(
     [
